@@ -6995,7 +6995,15 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 flutter_lints
 flutter_plugin_android_lifecycle
+path_provider
+path_provider_android
+path_provider_foundation
+path_provider_linux
+path_provider_platform_interface
+path_provider_windows
+platform
 plugin_platform_interface
+xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
 
@@ -8027,6 +8035,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 get
+get_storage
 
 MIT License
 
