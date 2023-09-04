@@ -24364,8 +24364,9 @@ _.j2$=f},
 pt:function pt(a){this.a=a},
 acS:function acS(a,b){this.a=a
 this.b=b},
-acZ:function acZ(a,b){this.a=a
-this.b=b},
+acZ:function acZ(a,b,c){this.a=a
+this.b=b
+this.c=c},
 acW:function acW(a){this.a=a},
 acX:function acX(a,b,c){this.a=a
 this.b=b
@@ -79263,15 +79264,15 @@ li(){this.ui()},
 hc(a){this.ps(0)}}
 A.pt.prototype={
 J(a){return A.a1A(new A.acS(this,a),null,A.atK(),null,t.Ea)},
-GA(a,b){var s,r=$.cv,q=(r==null?$.cv=$.fM():r).fu(0,"[DEFAULT]")
+GA(a,b,c){var s,r=$.cv,q=(r==null?$.cv=$.fM():r).fu(0,"[DEFAULT]")
 A.d5(q,$.fL(),!0)
 r=A.bX(A.hA(new A.dO(q)).gfS().fe(0,null))
 s=$.aW
 if(s==null)s=$.aW=B.I
-return A.atd(new A.acZ(this,b),A.bX(A.bX(r.c.dc(0,s.de(0,null,A.l(this).i("e5.T")).ax)).c.dc(0,b)).gRi(),t.y8)}}
+return A.atd(new A.acZ(this,b,c),A.bX(A.bX(r.c.dc(0,s.de(0,null,A.l(this).i("e5.T")).ax)).c.dc(0,c)).gRi(),t.y8)}}
 A.acS.prototype={
 $1(a){var s=null,r=A.an6("assets/images/bg.jpg",B.hd),q=$.a6().DO(5,5,B.bt),p=A.an(148,255,255,255),o=this.a,n=this.b,m=t.p
-return A.a8U(s,B.i,A.js(B.bv,A.b([r,A.vZ(B.X,A.amz(A.cQ(B.L,A.oZ(A.b([new A.ts(s),A.nY(o.GA(n,"autoPost"),1),new A.ts(s),A.nY(o.GA(n,"autoDailyThought"),1),new A.ts(s)],m),B.aC,B.b6,B.aG),B.m,p,s,s,s,s,s,s,s,s,s),q),B.aQ)],m),B.Q,B.j5,s))},
+return A.a8U(s,B.i,A.js(B.bv,A.b([r,A.vZ(B.X,A.amz(A.cQ(B.L,A.oZ(A.b([new A.ts(s),A.nY(o.GA(n,"Auto Post","autoPost"),1),new A.ts(s),A.nY(o.GA(n,"Auto Daily Thought","autoDailyThought"),1),new A.ts(s)],m),B.aC,B.b6,B.aG),B.m,p,s,s,s,s,s,s,s,s,s),q),B.aQ)],m),B.Q,B.j5,s))},
 $S:500}
 A.acZ.prototype={
 $2(a,b){var s,r,q,p,o=null
@@ -79281,10 +79282,10 @@ else{s=A.b([],t.GX)
 r=b.b
 q=r==null
 if(!A.iR(q?o:J.amo(r).a.a.h(0,"value"))){r=q?o:J.amo(r).a.a.h(0,"value")
-J.ee(t.a.a(r),new A.acW(s))}r=A.ce("Auto Daily Thought",o,o,o,A.bK(o,o,B.l,o,o,o,o,o,o,o,o,20,o,o,B.b2,o,o,!0,o,o,o,o,o,o,o,o),o,o)
+J.ee(t.a.a(r),new A.acW(s))}r=A.ce(this.b,o,o,o,A.bK(o,o,B.l,o,o,o,o,o,o,o,o,20,o,o,B.b2,o,o,!0,o,o,o,o,o,o,o,o),o,o)
 q=A.dn(o,25*$.c.j(),o)
 p=s.length
-return A.lJ(A.b([r,q,p===0?A.k3(A.ce("No Data",o,o,o,A.bK(o,o,B.l,o,o,o,o,o,o,o,o,20,o,o,B.b2,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o):A.nY(A.aBT(new A.acX(this.a,s,this.b),p,new A.acY(),!0),1)],t.p),B.aC,B.b6,B.aG)}},
+return A.lJ(A.b([r,q,p===0?A.k3(A.ce("No Data",o,o,o,A.bK(o,o,B.l,o,o,o,o,o,o,o,o,20,o,o,B.b2,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o):A.nY(A.aBT(new A.acX(this.a,s,this.c),p,new A.acY(),!0),1)],t.p),B.aC,B.b6,B.aG)}},
 $S:165}
 A.acW.prototype={
 $2(a,b){this.a.push(A.v8(b))},
